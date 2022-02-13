@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    >button{
+      -webkit-border-radius: 7;
+      -moz-border-radius: 7;
+      border-radius: 7px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 17px;
+      background: #52b7ff;
+      padding: 0px 15px 0px 15px;
+      text-decoration: none;
+      outline: none;
+      height: 30px;
+      border: none;
+      margin: 0px 20px;
+
+      &:disabled{
+        background: grey;
+      }
+    }
+
+
+    table{
+      th{
+        padding: 10px 40px;
+      }
+    }
+
+  }
+}
